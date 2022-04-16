@@ -48,7 +48,7 @@ def check_hangman():
     elif hang_level == 2:
         canvas.create_oval(200,100,300,200)
     elif hang_level == 3:
-        canvas.create_oval(250,200,250,400)
+        canvas.create_line(250,200,250,400)
     elif hang_level == 4:
         canvas.create_line(250,280,300,250)
     elif hang_level == 5:
