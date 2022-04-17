@@ -21,8 +21,9 @@ def start():
     canvas["bg"] = "white"
     canvas.create_line(50,50,50,450)
     canvas.create_line(50,50,330,50)
-
+    
     theme = get_theme()
+    text_head2["text"] = "Clue : "+theme
     words_list = get_list_of_words(theme)
     real_word = random_word_choose(words_list)
     edited_word = edit_word(real_word)
@@ -107,11 +108,12 @@ def check_input(char):
         
     
 def process():
-    s = entry.get()
+    s = char.get()
     if len(s)!=1 or not s.isalpha():
         message("Please give a proper input : Only a alphabet")
     else:
         check_input(s)
+        char.set("")
 
 def restart():
     canvas.delete("all")
@@ -135,10 +137,14 @@ text_head = Label(root ,text = "Missing Word :" , font = ("Times", "20", "underl
 text_head.place(x = 400 , y = 10)
 
 
-text_head1 = Label(root ,text = "Enter A Character :" , font = ("Times", "20", ""))
+text_head1 = Label(root ,text = "Enter a Character :" , font = ("Times", "20", ""))
 text_head1.place(x = 400 , y = 250)
+text_head2 = Label(root ,text = "Clue : " , font = ("Arial", "20", ""))
+text_head2.place(x = 400 , y = 110)
 
-entry = Entry(root , font = ("Arial", "20", "") , width = 3)
+char = StringVar()
+
+entry = Entry(root ,textvariable = char , font = ("Arial", "25", "normal") , width = 3)
 entry.place(x = 650 , y = 250)
 
 
