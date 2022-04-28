@@ -1,5 +1,5 @@
 # mini-projects-py
-## this is for beginner friendly projects in python , I have made this for practicing my skills
+## these are some beginner friendly projects in python , I have made this for practicing my skills
 
 
 # HANGMAN - Demo Video
