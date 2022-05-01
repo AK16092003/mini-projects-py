@@ -1,5 +1,10 @@
 ## Boolean Logic
 ### Prints the truth table for given expression
+### Requirements: 
+Installation of Tabulate module in command prompt / console:
+```python
+pip install tabulate
+```
 
 kindly refer to this for example:
 ```python
@@ -24,7 +29,7 @@ kindly refer to this for example:
   +-----+-----+-----+----------+
   |   1 |   1 |   1 |        1 |
   +-----+-----+-----+----------+
->>>
+  >>>
 ```
 
 Even complicated boolean functions also work!
@@ -67,7 +72,7 @@ Example:
   +-----+-----+-----+-----+----------+
   |   1 |   1 |   1 |   1 |        1 |
   +-----+-----+-----+-----+----------+
->>> 
+  >>> 
 ```
 
 
