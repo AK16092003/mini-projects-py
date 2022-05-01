@@ -1,4 +1,3 @@
-
 from tabulate import *
 
 """
@@ -65,6 +64,7 @@ exp = exp.replace("xn_or","xnor")
 exp = exp.replace("n_or","nor")
 exp = exp.replace("n_and","nand")
 exp = exp.replace("x_nor","xnor")
+exp = exp.replace("x_or","_xor")
 
 inputs = inputs_lst(exp)
 inputs.sort()
