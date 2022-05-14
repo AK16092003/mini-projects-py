@@ -1,5 +1,5 @@
 <p>Code to execute the Extended Euclidean Algorithm to find the gcd of 2 given numbers a and b.</p>
-<p>Also find a<sup>-1</sup> mod b and b<sup>-1</sup> mod a</p>
+<p>Also find two integers x and y such that a.x + b.y = GCD( a , b )</p>
 
 Example:
 
