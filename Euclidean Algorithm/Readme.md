@@ -1,5 +1,5 @@
-Code to execute the Extended Euclidean Algorithm to find the gcd of 2 given numbers.
-Also find a^-1 mod b and b^-1 mod a
+Code to execute the Extended Euclidean Algorithm to find the gcd of 2 given numbers a and b.
+Also find a<sup>-1</sup> mod b and b<sup>-1</sup> mod a
 
 Example:
 
